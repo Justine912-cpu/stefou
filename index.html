@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class X-4 - Futuristic Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+    <header>
+        <div class="logo">Stefou</div>
+        <button class="hamburger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#roster">Lesson Roster</a></li>
+                <li><a href="#regulations">Regulations</a></li>
+                <li><a href="#duties">Duty Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro" class="hero">
+            <h1>Welcome to Stefou</h1>
+            <p>Embark on a journey of knowledge in our futuristic learning environment. Explore, interact, and innovate!</p>
+            <button class="cta-button">Get Started</button>
+        </section>
+
+        <section id="about">
+            <h2>About Class X-4</h2>
+            <p>Part OF SMA Cahaya</p>
+            <div class="structure">
+                <h3>Class Structure</h3>
+                <ul>
+                    <li><strong>Teacher:</strong> Ms. Mira Sihotang</li>
+                    <li><strong>Student Leaders 1:</strong> Adrianta Limbeng</li>
+                    <li><strong>Student Leaders 2:</strong> Aldiansyah Sinambela</li>
+                </ul>
+            </div>
+            <div class="photos">
+                <h3>Meet the Team</h3>
+                <div class="photo-grid">
+                    <div class="photo-card">
+                        <img src="img/adri.jpg" alt="Student Leader 1">
+                        <p>Student Leader 1</p>
+                    </div>
+                    <div class="photo-card">
+                        <img src="img/ms.jpg" alt="Mr. Jax Orion">
+                        <p>Ms. Mira</p>
+                    </div>
+                    <div class="photo-card">
+                        <img src="img/aldi.jpg" alt="Student Leader 2">
+                        <p>Student Leader 2</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roster">
+            <h2>Lesson Roster</h2>
+            <div class="roster-grid">
+                <div class="day-card" data-day="Monday">
+                    <h3>Monday</h3>
+                    <p>Geografi, Agama, Sejarah, Bing</p>
+                    <button class="expand-btn">Details</button>
+                    <div class="details hidden">
+                        <ul>
+                            <li>7:15-16:00</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day-card" data-day="Tuesday">
+                    <h3>Tuesday</h3>
+                    <p>Matematika, Pjok, Pkar, Fisika, Bindo</p>
+                    <button class="expand-btn">Details</button>
+                    <div class="details hidden">
+                        <ul>
+                            <li>7:15-16:00</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day-card" data-day="Wednesday">
+                    <h3>Wednesday</h3>
+                    <p>Smsk, Agama, Kimia, Bing, Pjok</p>
+                    <button class="expand-btn">Details</button>
+                    <div class="details hidden">
+                        <ul>
+                            <li>7:15-16:00</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day-card" data-day="Thursday">
+                    <h3>Thursday</h3>
+                    <p>Informatika, PPKN, Ekonomi, Biologi</p>
+                    <button class="expand-btn">Details</button>
+                    <div class="details hidden">
+                        <ul>
+                            <li>7:15-16:00</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day-card" data-day="Friday">
+                    <h3>Friday</h3>
+                    <p>Bindo, Matematika, Sosiologi</p>
+                    <button class="expand-btn">Details</button>
+                    <div class="details hidden">
+                        <ul>
+                            <li>7:15-14:15</li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="regulations">
+            <h2>Regulations</h2>
+            <ul class="rules-list">
+                <li>Respect all classmates and teachers at all times.</li>
+                <li>No electronic devices during lectures unless permitted.</li>
+                <li>Complete assignments on time and participate actively.</li>
+                <li>Report any issues to the teacher immediately.</li>
+                <li>Maintain a clean and organized workspace.</li>
+            </ul>
+        </section>
+
+        <section id="duties">
+            <h2>Class Duty Schedule</h2>
+            <table class="duty-table">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Duty</th>
+                        <th>Assigned To</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Classroom Cleaning</td>
+                        <td>Team Alpha</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Classroom Cleaning</td>
+                        <td>Team Alpha</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Classroom Cleaning</td>
+                        <td>Team Alpha</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Classroom Cleaning</td>
+                        <td>Team Alpha</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Classroom Cleaning</td>
+                        <td>Team Alpha</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 by Justine</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
